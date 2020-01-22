@@ -1,0 +1,27 @@
+# Guide TODO List
+
+- [ ] **Markdown Guide** (currently underway) - Explains how to write Markdown with Extended Markdown features in Typoria
+- [ ] **LaTeX Guide** - A guide for writing math and chemical formulas in Markdown
+- [ ] **Mermaid Guide** - A guide for composing diagrams using mermaid.js.
+- [ ] **Graphviz Guide** - If the Mermaid Syntax deviates widely from Graphviz syntax, consider making this guide
+- [ ] **HTML Guide** - A guide listing all the HTML elements
+- [ ] **CSS Guide** - A guide listing all the CSS attributes
+- [ ] **JavaScript Guide** - A guide listing all the JavaScript syntax including some of the stuff that the LC Textbook omitted.
+- [ ] **DOM Guide** - A guide listing DOM structure
+- [ ] **HTTP Guide** - A guide to HTTP
+- [ ] **JSON Guide** - A guide to JSON
+- [ ] **Python Guide** - A guide listing Python syntax that is important. (I should recommend using this to rewrite bash scripts into Python Scripts)
+- [ ] **Linux Guide** - A guide listing Bash, Sed, and Awk syntax as well as text processing. (You should really do this in Python!)
+- [ ] **Git Guide** - A guide to get gud at git.
+- [ ] **TypeScript Guide** - A gude for TypeScript
+- [ ] **Jasmine Guide** - A Guide for Jasmine.js.
+- [ ] **Node Guide** - A Guide for Node.js.
+- [ ] **Express Guide** - A Guide for Express.js.
+- [ ] **Angular Guide** - A Guide for Angular.js.
+- [ ] **React Guide** - A Guide for React.js.
+- [ ] **Vue Guide** - A Guide for Vue.js.
+- [ ] **SQL Guide** - An SQL guide (generally MySQL and Oracle)
+- [ ] **MongoDB Guide** - A MongoDB Guide
+- [ ] **YAML Guide** - A Guide for YAML.
+- [ ] **Ruby Guide** - A Guide for Ruby.
+- [ ] **C++ Guide** - A Guide for C++ (C++20?)

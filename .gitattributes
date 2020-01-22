@@ -1,0 +1,10 @@
+# Do not change LF to CRLF (This will set it to default)
+* text=auto
+
+# Do not set LF to CRLF in markdown files
+# Markdown
+*.md text eol=lf
+
+*.js text
+*.css text
+*.html text
