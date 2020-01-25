@@ -12,7 +12,7 @@
 
 - [ ] a. Class 1 Reading: Chapter 4: Data and Variables
 - [ ] b. Class 1 Concept Checks: Data and Variables
-- [ ] c. Class 1: Join repl.it Classroom
+- [x] c. Class 1: Join repl.it Classroom
 - [ ] d. Class 1 Exercises: Chapter 4: Data and Variables :runner:
 
 ## Due Jan 23, 2020 by 8:30pm
@@ -20,7 +20,9 @@
 * [ ] LC101 Code of Conduct
 
   > :warning: **CAUTION: Social Justice Drama!** 
-  > While a Code of Conduct (CoC) is meant to keep the peace and to set the ground rules for what is acceptable behavior, make sure you mind your manners but also, don't take any guff trying to exploit the CoC in a manner that takes advantage the whole "microaggressions" fad that denigrates the needs of people who have real social issues they need help with for some off-the-wall behavior by people who can't handle being *responsible mature adults*. 
+  > While a Code of Conduct (CoC) is meant to keep the peace and to set the ground rules for what is acceptable behavior, make sure you mind your manners but also, don't take any guff from people trying to exploit the CoC in a manner that takes advantage the whole "microaggressions" fad that denigrates the needs of people who have real social issues they need help with for some off-the-wall behavior by people who can't handle being *responsible mature adults*. Even this word of warning could be considered problematic. I tried hard not to make it so, but I imagine someone will still be upset about it.
+  >
+  > Regardless, these are my notes. I'm sharing them, and trying to be ask kind and open as possible. Let's not ruin this class by making a scene.
   >
   > As Ellen DeGeneres says: **"Be kind to one another!"**
   >
@@ -28,11 +30,11 @@
 
 ## Due Jan 23, 2020 by 11:59pm
 
+* [ ] :heavy_check_mark: Class 1 Attendance
+
 * [ ] e. Class 1 Studio: Chapter 4: Data and Variables
 
   :reminder_ribbon: **TODO**: What number was that Studio? 
-
-* [ ] :heavy_check_mark: Class 1 Attendance
 
 ## Due Jan 27, 2020 by 9:00am
 
@@ -43,13 +45,20 @@
 
 ## Due Jan 27, 2020 by 11:59pm
 
-* [ ] e. Class 2 Studio: Goal Setting & Power Statements
 * [ ] :heavy_check_mark: Class 2 Attendance
+* [ ] e. Class 2 Studio: Goal Setting & Power Statements :lock: N/A unil 1/23/2020
+
+
 
 ---
 
 > :reminder_ribbon: **TODO**: Insert Syllabus here!
 
-> :reminder_ribbon: **TODO**: Move all these notes to One Drive and Put them in a private GitHub repo!
+> 👓 **Good news everyone...**
+> You can download these notes on Github! They aren't complete yet.
+>
+> ```bash
+> git clone https://github.com/jrcharney/LauncCodeNotes
+> ```
 
 Classes will be from 5:30pm to 8:30pm on Mondays and Thursdays starting January 23, 2020 through June 18, 2020.
