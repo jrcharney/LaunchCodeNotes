@@ -56,19 +56,21 @@
 
 ### by 11:59pm
 
-* [ ] :heavy_check_mark: Class 2 Attendance
-* [ ] e. Class 2 Studio: Goal Setting & Power Statements :lock: N/A until 1/23/2020
+* [x] :heavy_check_mark: Class 2 Attendance
+* [x] e. Class 2 Studio: Goal Setting & Power Statements :studio_microphone:
 
 ## Due Thu, Jan 30, 2020
 
 ### by 9:00am
 
-* [ ] a. Class 3. Reading Strings and Arrays
+* [ ] a. Class 3. Reading Strings & Arrays
 * [ ] b. Class 3. Concept Checks
+* [ ] c. Class 3. Exercises: Strings & Arrays :runner:
 
 ### 11:59pm
 
 * [ ] :heavy_check_mark: Class 3 Attendance
+* [ ] d. Class 3 Studio: Strings & Arrays :studio_microphone:
 
 ## Due Mon, Feb 3, 2020
 
@@ -76,10 +78,12 @@
 
 * [ ] a. Class 4 Reading: Repeating With Loops
 * [ ] b. Class 4 Concept Checks
+* [ ] c. Class 4 Exercises: Repeating With Loops :runner:
 
 ### 11:59pm
 
 * [ ] :heavy_check_mark: Class 4 Attendance
+* [ ] d. Class 4 Studio : Repeating with Loops :studio_microphone: :lock: N/A until 1/30/2020
 
 ## Due Thu, Feb 6, 2020
 
@@ -87,21 +91,26 @@
 
 * [ ] a. Class 5 Reading: Functions Are at Your Beck and Call
 * [ ] b. Class 5 Concept Checks
+* [ ] c. Class 5 Exercises: Functions Are at Your Beck and Call :runner:
 
 ### 11:59pm
 
 * [ ] :heavy_check_mark: Class 5 Attendance
+* [ ] Class 5 Studio: Functions Are at Your Beck and Call :studio_microphone: :lock: N/A until 2/3/2020
 
 ## Due Mon, Feb 10, 2020
 
 ### 9:00am
 
+* [ ] :rotating_light: **Graded Assignment #1: Candidate Testing** :rotating_light:
 * [ ] a. Class 6 Reading: More on Functions
 * [ ] b. Class 6 Concept Checks
+* [ ] c. Class 6 Exercises: More on Functions :runner:
 
 ### 11:59pm
 
 * [ ] :heavy_check_mark: Class 6 Attendance
+* [ ] d. Class 6 Studio: More on Functions :studio_microphone: :lock: N/A until 2/6/2020
 
 ## Due Thu, Feb 13, 2020
 
@@ -147,6 +156,8 @@
 
 ### 9:00am
 
+* [ ] Class 12 Exercises: HTML :runner:
+
 ### 11:59pm
 
 * [ ] :heavy_check_mark: Class 12 Attendance
@@ -154,6 +165,8 @@
 ## Due Mon, Mar 9, 2020
 
 ### 9:00am
+
+* [ ] Class 13 Exercises: CSS :runner:
 
 ### 11:59pm
 
@@ -163,6 +176,8 @@
 
 ### 9:00am
 
+* [ ] Class 14 Exercises: DOM and Events :runner:
+
 ### 11:59pm
 
 * [ ] :heavy_check_mark: Class 14 Attendance
@@ -170,6 +185,8 @@
 ## Due Mon, Mar 16, 2020
 
 ### 9:00am
+
+* [ ] Class 15 Exercises: Forms :runner:
 
 ### 11:59pm
 
