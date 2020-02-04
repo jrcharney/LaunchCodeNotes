@@ -53,6 +53,8 @@ console.log(`${number2} is ${(number2 % 2 === 0) ? "even" : "odd"}`);	// ternary
 
 * In chapter 5, I have truth tables and flow charts.
 * In chapter 6, section 4 (6.4), there is a Class diagram showing the error types and a table showing what each one does.
+  * The three mayor error types: Syntax (you typoed something), Runtime (compiler found an error), and Logic (you screwed up)!
+* `.concat()`, `.substring()`, `.slice()`, and `.splice()` are deathly critical for Strings and Arrays. You'll definitely want
 
 
 
