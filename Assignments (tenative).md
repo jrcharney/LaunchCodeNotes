@@ -63,46 +63,46 @@
 
 ### by 9:00am
 
-* [ ] a. Class 3. Reading Strings & Arrays
-* [ ] b. Class 3. Concept Checks
-* [ ] c. Class 3. Exercises: Strings & Arrays :runner:
+* [x] a. Class 3. Reading Strings & Arrays
+* [x] b. Class 3. Concept Checks
+* [x] c. Class 3. Exercises: Strings & Arrays :runner:
 
 ### 11:59pm
 
-* [ ] :heavy_check_mark: Class 3 Attendance
-* [ ] d. Class 3 Studio: Strings & Arrays :studio_microphone:
+* [x] :heavy_check_mark: Class 3 Attendance
+* [x] d. Class 3 Studio: Strings & Arrays :studio_microphone:
 
 ## Due Mon, Feb 3, 2020
 
 ### 9:00am
 
-* [ ] a. Class 4 Reading: Repeating With Loops
-* [ ] b. Class 4 Concept Checks
-* [ ] c. Class 4 Exercises: Repeating With Loops :runner:
+* [x] a. Class 4 Reading: Repeating With Loops
+* [x] b. Class 4 Concept Checks
+* [x] c. Class 4 Exercises: Repeating With Loops :runner:
 
 ### 11:59pm
 
-* [ ] :heavy_check_mark: Class 4 Attendance
-* [ ] d. Class 4 Studio : Repeating with Loops :studio_microphone: :lock: N/A until 1/30/2020
+* [x] :heavy_check_mark: Class 4 Attendance
+* [x] d. Class 4 Studio : Repeating with Loops :studio_microphone: :lock: N/A until 1/30/2020
 
 ## Due Thu, Feb 6, 2020
 
 ### 9:00am
 
-* [ ] a. Class 5 Reading: Functions Are at Your Beck and Call
-* [ ] b. Class 5 Concept Checks
-* [ ] c. Class 5 Exercises: Functions Are at Your Beck and Call :runner:
+* [x] a. Class 5 Reading: Functions Are at Your Beck and Call
+* [x] b. Class 5 Concept Checks
+* [x] c. Class 5 Exercises: Functions Are at Your Beck and Call :runner:
 
 ### 11:59pm
 
-* [ ] :heavy_check_mark: Class 5 Attendance
-* [ ] Class 5 Studio: Functions Are at Your Beck and Call :studio_microphone: :lock: N/A until 2/3/2020
+* [x] :heavy_check_mark: Class 5 Attendance
+* [x] Class 5 Studio: Functions Are at Your Beck and Call :studio_microphone: :lock: N/A until 2/3/2020
 
 ## Due Mon, Feb 10, 2020
 
 ### 9:00am
 
-* [ ] :rotating_light: **Graded Assignment #1: Candidate Testing** :rotating_light:
+* [x] :rotating_light: **Graded Assignment #1: Candidate Testing** :rotating_light:
 * [ ] a. Class 6 Reading: More on Functions
 * [ ] b. Class 6 Concept Checks
 * [ ] c. Class 6 Exercises: More on Functions :runner:
@@ -116,13 +116,22 @@
 
 ### 9:00am
 
+* [ ] a. Class 7 Reading: Objects and the Math Object
+* [ ] b. Class 7 Concept Checks
+* [ ] c. Class 7 Exercises: Objects and the Math Object
+
 ### 11:59pm
+
+* [ ] d. Class 7 Studio: Objects and Math
 
 * [ ] :heavy_check_mark: Class 7 Attendance
 
 ## Due Mon, Feb 17, 2020
 
 ### 9:00am
+
+* [ ] a. Class 8 Reading: Modules
+* [ ] b. Class 8 Concept Checks
 
 ### 11:59pm
 
@@ -132,6 +141,10 @@
 
 ### 9:00am
 
+* [ ] a. Class 9 Reading: Unit Testing
+* [ ] b. Class 9 Concept Checks
+* [ ] :rotating_light: **Graded Assignment #2: Scrabble Scorer** :rotating_light:
+
 ### 11:59pm
 
 * [ ] :heavy_check_mark: Class 9 Attendance
@@ -139,6 +152,10 @@
 ## Due Mon, Feb 24, 2020
 
 ### 9:00am
+
+* [ ] a. Class 10 Reading: Scope, More on Types, Exceptions
+* [x] b. Class 10 Concept Checks 
+  * (I accidently did this WAY too soon!)
 
 ### 11:59pm
 
@@ -148,6 +165,11 @@
 
 ### 9:00am
 
+> :warning: There are so many reasons [*NOT* to use Classes in JavaScript](https://medium.com/javascript-in-plain-english/please-stop-using-classes-in-javascript-and-become-a-better-developer-a185c9fbede1)!
+
+* [ ] a. Class 11 Reading: Classes
+* [ ] b. Class 11 Concept Checks
+
 ### 11:59pm
 
 * [ ] :heavy_check_mark: Class 11 Attendance
@@ -155,6 +177,9 @@
 ## Due Mon, Mar 2, 2020
 
 ### 9:00am
+
+* [ ] a. Class 12 Reading: Terminal, HTML, Git Basics
+* [ ] b. Class 12 Concept Checks
 
 * [ ] Class 12 Exercises: HTML :runner:
 
