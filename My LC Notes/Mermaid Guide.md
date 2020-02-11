@@ -17,6 +17,10 @@ Mermaid is a way to render diagrams including Flowcharts, Sequence Diagrams, Sta
 A **flow chart** shows the logical sequence of steps that a process follows. You'll see a lot of these in my notes. They are useful for describing logical structures as well as for decision making.
 
 > :large_orange_diamond: **DECISIONS** : One of the biggest problems with Flow Charts is how programs processs them. If you write a long question, there will be a rediculously large diamon occuping the diagram. So It might be better to make your flow charts with a list decribing the questions outside of the flow chart.
+>
+> > :wrench: **Sorta fix**: You can use `<br/>` as a line break to help reduce the size of the diamond.
+> >
+> > :reminder_ribbon: **TODO**: A rhombus is generally more acceptable to represent flowchart decisions. See if there is a way to reduce the height or moderate the width of the rhombus individually.
 
 
 
@@ -75,6 +79,43 @@ Probably the most important type of diagram you will see throughout my documenta
 Class diagrams are the main building blocks of object-oriented mondeling. It is used for general conceptual modeling of the structure of the application, and for the detailed modeling translating the models into programming code. Class diagrams can also be used for data modeling. (For example, class diagrams can be used for modeling SQL databases as an alternative to Entity-Relationship diagrams). The classes in a class diagram represent both the main elements, interactions in the application, and the classes to be programmed.
 
 > :reminder_ribbon: **TODO**: Put an example diagram here.
+
+
+
+### Visibility
+
+
+
+### Relationships
+
+**Inheritance**:  Patient ***is a*** Person
+
+```mermaid
+classDiagram
+class Person {
+	title : String
+	givenName : String
+	middleName : String
+	familyName : String
+	/name : FullName
+	birthDate : Date
+	gender : Gender
+}
+class Patient {
+	^title : String
+	^name : FullName
+	^birthDate : Date
+	admitted : Date
+	/age : Integer
+	gender : Gender
+	allergies : String[*]
+}
+Person <|-- Patient
+```
+
+> :information_source: **NOTE**: Some UML Editors will show the inhertance arrow as black (filled) instead of white (not filled). They mean the same thing.
+
+Inherited items can be omitted in the child classes, or the can be included but prefixed with a carrot (`^`). I prefere to omit inherited properties as writing them is redundant.
 
 
 
