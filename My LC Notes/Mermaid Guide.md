@@ -82,11 +82,9 @@ Class diagrams are the main building blocks of object-oriented mondeling. It is 
 
 
 
-### Visibility
-
-
-
 ### Relationships
+
+> :reminder_ribbon: **TODO**: You may want to move this section later.
 
 **Inheritance**:  Patient ***is a*** Person
 
