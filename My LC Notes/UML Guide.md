@@ -164,6 +164,122 @@ For example, semantics of *multiplicity of actors* and *multiplicity of use case
 
 **The current version of the UML Specification is version 2.5 as of June 2015.**
 
+## Object-Oriented Design Concepts in UML
+
+UML is inherently an **object-oriented modeling language** and was designed for use in object-oriented software applications. The applications could be based on the *object-oriented technologies* recommended by the **Object Management Group** (OMG), which owns UML.
+
+UML doesn't care to support *database modeling*, which is still mostly based on *relational models* to describe relational databases. It does not explain why UML ignores modeling of object relational databases or modeling of Graphical User Interfaces (GUI). GUI designs were, and still are, prominent examples of object-oriented design and programming, while completely neglected by UML.
+
+To understand and use UML as intended by its authors, software architects and develoers should be familar with general concepts and methods of **object-oriented analysis and design** (OOAD) and/or of **object-oriented development** (OOD), and how those were applied to UML itself. There is one program with this requirement: though OOAD/OOD has been used for several decades, there is still no concensus on what OOAD is and even what are the fundamental concepts of OOAD.
+
+### Object-Oriented Design
+
+==**Object-Oriented Design** (OOD) is a software development approach to design and implement software systems as a collection of interacting stateful object with specific structure and behavior.==
+
+There are several fundamental concepts defining OOD but there is no agreement on the exact list of the concepts, their definition, and taxonomy (classification). However, the most relevant to UML are:
+
+* class and object
+* message, operation, and method
+* encapsulation
+* abstraction
+* inheritance
+* polymorphism
+
+### Class and Object
+
+UML **class** is a *classifier* which describes a set of object and share the same features, constraints, and semantics (meaning).  Class may be model as being **active**, meaning that an *instance of the class* (an "object") has some autonomous *behavior*.
+
+An **object** is an *instance* of a *class*. 
+
+An object is an individual "thing" with a state and relationship to other objects. The state of an object identifies the values for that object of properties of the classifier of the object.
+
+### Message
+
+A **message** are intrinsic elements of UML [interaction diagrams](####Interaction Diagrams). A message defines a specific kind of communication between *lifelines* of an interaction. A communication can be, for example, invoking an operator, replying back, createing or destroying an instance, or raising a signal. It also specifies the sender and the receiver of the message.
+
+> 🧜‍♀️ **Mermaid Issue**: There doesn't seem to be a way to demonstrate lifelines using Mermade like on [this page](https://www.uml-diagrams.org/uml-object-oriented-concepts.html).
+>
+> :reminder_ribbon: **TODO**: Find a way to recreate the image in the "Message in UML" section.
+
+### Operation and Method
+
+An **operation** is defined in UML 1.4.2 as a service that can be requested from an object to effect behavioer. An operation has a **signature**, which may restrict the actual parameters that are possible.
+
+A **method** is defined as the implementation of an operation. It specifies the algorith or procedure associated with an operation.
+
+### Encapsulation
+
+**Encapsulation** is a development technique which includes
+
+* creating new data types (*classes*) by combining both information (*structure*) and behaviors, and
+* restricting access to implementation details.
+
+### Abstraction
+
+An *abstraction* isolates us from implementation: as abstraction can be used without knowledge of its implementation and implemented without knowlege of its use.
+
+**Abstraction** is a *dependency relationship* that relates two elements or sets of elements (called **supplier** and **client**) representing the *same concept* at *different levels* of abstraction or from *different viewpoints*.
+
+**Realization** is a specialzied abstraction relationship between two sets of model elements, one representing a **specification** (the *supplier*) and the other represents an **implementation** of the latter (the *client*).
+
+### Inheritance
+
+==**Inheritance** is defined as a mechanism by which more specific classes (called **subclasses** or **derived classes**) incorporate structure and behavior of the more general classes (called **superclasses** or **base classes**).==
+
+Inheritance supplements *generalization* relationships.
+
+**Generalization** is defined as a taxonomic relationship btween a more general element and a more specific element. The more specific element is fully consistent with the more general element and contains some additional information. An instance of the more specific element may be used where the more general element is allowed.
+
+Inheritance was explained in UML 1.4.2 using the concepts of a *full descriptor* and a *segment descriptor*. A **full descriptor** contains a description of all of the attributes, associations, operations, and constraints that the object contains, and is ususally implicit because it is built out of incremental segments combined together using inheritance.
+
+If a generalizable element has more than one parent (**multiple inheritance**), the its full descriptor contains the union of the features from its own segment descriptors and the segment descriptors of all its ancestors.
+
+Attributes in UML 1.4 could not be *redefined* but a method may be declared in more than one subclass. A method declared in any segument supersedes and replaces a method with the same signature declared in any ancestor. 
+
+### Polymorphism
+
+==**Polymorphism** is the ability to apply different meaing (semantics, implementation) to the same symbol (message, operation) in different context.==
+
+When context is defined at compile time, it is called **static** or **compile-time polymorphism**. When context is defined during program execution, it is **dynamic** or **runtime-polymorphism**.
+
+A common occurence of polymorphism happens with operators in programming languags such that the operators are often **polymorphic operations** which could be used with different types of operands. Specific static context--types of the operands--will determine at compile time which implementation of the operator is to be used.
+
+This kind of static polymorphis is usually called **overloading** and means suing the same operation symbol or function name on different types. Note that overloading also allows different number of parameters and sometimes (depending on the programming language) even different priorities
+
+Another kind of static polymorphism is **parametric polymorphism** as in based on *templates* like the ones used in C++.
+
+In OOAD, *polymorphism* means *dynamic polymorphism* and is commonly related to as *late binding* or *dynamic binding*. It could be defined as: ==(Dynamic) Polymorphism is the ability of objects of different classes to respond to the same message in a different way.==
+
+Dynamic binding menchanism in C++, Java, and C# allows to determine behavior (implementation) to be invoked in response to the messages received by a specific object. To get this kind of polymorphic behavior in C++, the member functions must be **`virtual`** and objects must be manipulated through pointers or references.
+
+---
+
+## UML Core Elements
+
+> :bookmark: **CHECKPOINT** We'll need to get back to working on this documentation later. See [this page](https://www.uml-diagrams.org/uml-core.html).
+
+### Element
+
+### Named Element
+
+### Redefinable Element
+
+### Type
+
+### Feature
+
+### Instance and Instance Specification
+
+### Relationship
+
+### Directed Relationship
+
+### Comment
+
+
+
+---
+
 ## UML 2.5 Diagrams Overview
 
 A **UML diagram** is a partial graphical representation (view) of a model of a system under design, implementation, or already in existance. UML diagrams consis of **graphical elements** (symbols)--UML nodes connected with edges (also known as *paths* or *flows*)--that represent elements in the UML model of the designed system. The UML model of the system might also contain other documentation such as *use cases* written as templated texts.
@@ -586,7 +702,12 @@ classDiagram
 
 ##### Purpose
 
-A class diagram shows the structure of the designed system, subsystem, or component as related *classes* and *interfaces*, with their *features*, *constraints*, and *relationships* --*associations*, *generalizations*, *dependencies*, etc.
+A **class diagram** shows the structure of the designed system, subsystem, or component as related *classes* and *interfaces*, with their *features*, *constraints*, and *relationships* --*associations*, *generalizations*, *dependencies*, etc.
+
+Some common types of class diagrams are:
+
+* **domain model diagram** -
+* **diagram of implementation classes** -
 
 ##### Elements
 
@@ -609,7 +730,7 @@ A class diagram shows the structure of the designed system, subsystem, or compon
 
 ##### Purpose
 
-An **object diagram** was an instance level class diagram which showed instance specifications of classes and interfaces (*objects*), *slots* with value specifications, and *links* (instances of association).  As of UML 2.5, this sort of diagram is obsolete, especially since it can be represented with a class diagram.
+An **object diagram** could be considered an instance level [class diagram](####Class Diagrams) which shows *instance specifications* of classes and interfaces (*objects*), *slots* with value specifications, and *links* (instances of *association*).  As of UML 2.5, this sort of diagram is obsolete, especially since it can be represented with a class diagram.
 
 ##### Elements
 
