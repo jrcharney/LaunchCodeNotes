@@ -26,7 +26,7 @@ These notes include some content from  *Introduction to Professional Web Develop
 
 Exercises, Studios, and Graded Assignments are not part of this repo. I will NOT post them. So don't ask.
 
-Sometimes I'm ahead, sometimes I'm behind. I usally keep track of how I am doing as well as what assignments were posted to the class scheudle in the [Syllabus (tentative)](Syllabus%20(tentative).md) file whenever the course instructor updates the schedule.
+Sometimes I'm ahead, sometimes I'm behind. I usally keep track of how I am doing as well as what assignments were posted to the class scheudle in the [Syllabus (tentative)](Syllabus%20by%20Month/Syllabus%20(tentative).md) file whenever the course instructor updates the schedule.
 
 Learning is not a straight path! If you look at it like a straight straw to which are just going through the motions and don't contribute anything, you will miss out on a lot of stuff. Learning is more like a bendy straw with the loops and curls in it. If you are not having fun while doing it, you won't gain anything from it.
 

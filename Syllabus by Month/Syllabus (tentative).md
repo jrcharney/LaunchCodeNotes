@@ -1,7 +1,7 @@
-# Syllabus
+# Syllabus (tentative)
 
-> :reminder_ribbon: **TODO** Rename this file to "Syllabus (tentative).md"
->
+> :warning: **WARNING!** The contents of this file are likely to change as the course continues.  I'd use this to help me keep track of my progress.
+
 > :reminder_ribbon: **TODO** Break this file into smaller parts and put those parts in their own folder.
 >
 > :reminder_ribbon: **TODO** Include a table posing as a calendar in each section and links to each chapter covered in the class.
