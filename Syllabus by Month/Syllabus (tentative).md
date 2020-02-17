@@ -12,12 +12,24 @@
 
 This thing got too long for one document. So I broke it down into smaller ones.
 
-* [January 2020](2020.01.md) :snowflake:
-* [February 2020](2020.02.md) :purple_heart:
-* [March 2020](2020.03.md) :shamrock:
-* [April 2020](2020.04.md) :cloud_with_rain:
-* [May 2020](2020.05.md) :tulip:
-* [June 2020](2020.06.md) :rainbow_flag:
+<table>
+    <tr>
+        <td>
+            <ul>
+                <li><a href="2020.01.md">January</a>❄</li>
+                <li><a href="2020.02.md">February</a>💜</li>
+                <li><a href="2020.03.md">March</a>☘</li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li><a href="2020.04.md">April</a>🌧</li>
+                <li><a href="2020.05.md">May</a>🌷</li>
+                <li><a href="2020.06.md">June</a>🏳‍🌈</li><!-- Notice how flags are create! -->
+            </ul>
+        </td>
+    </tr>
+</table>
 
 > **Classes will be from 5:30pm to 8:30pm on Mondays and Thursdays starting January 23, 2020 through June 18, 2020.**
 >
