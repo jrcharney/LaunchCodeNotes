@@ -45,6 +45,10 @@ graph TB
 
 See this [link](https://mermaid-js.github.io/mermaid/#/flowchart).
 
+For more information about flow charts, [read this PDF](http://web.eah-jena.de/~kleine/history/software/IBM-FlowchartingTechniques-GC20-8152-1.pdf).
+
+Alternatively, give [Flowgorithm](http://flowgorithm.org/) a try.
+
 ### Sequence Diagram
 
 A **sequence diagram** is an interaction diagram that shows how processes operate with one another and in what order.
@@ -161,4 +165,7 @@ gantt
 
 [^ mjs ]: [Mermaid.js](https://mermaidjs.github.io/)
 [^ mjs-le ]: Mermaid.js [LIve Editor](https://mermaidjs.github.io/mermaid-live-editor/)
+[^ omg-uml ]: Object Management Group. March 2015. [UML 2.5](https://www.omg.org/spec/UML/2.5/PDF) PDF!
+
+[^ ibm-fc ]: IBM. (ARCHIVED by [Karl Kleine](http://web.eah-jena.de/~kleine/history/).) March 1970. [Data Processing Techniques](http://web.eah-jena.de/~kleine/history/software/IBM-FlowchartingTechniques-GC20-8152-1.pdf). PDF!
 

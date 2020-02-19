@@ -45,9 +45,12 @@ Social media is a good asset, but you can get lost or distracted along the way. 
 A few people I recommend following
 
 * [JavaScript Joel](https://twitter.com/joelnet).
+* [Samantha Ming](https://twitter.com/samantha_ming).
+* [Julia Evans](https://twitter.com/b0rk).
 * [Jacob Paris](https://twitter.com/jacobmparis).
 * [Carlos Caballero](https://twitter.com/Carlillo)
 * [Pina Varnel](https://twitter.com/ADHD_Alien) who make the *ADHD Alien* comics.
+* and [Java](https://twitter.com/java) (whose programming language kinda sucks but their Twitter feed makes it suck less.)
 
 There's probably a list of other people. But these are the people who I like the most.
 
