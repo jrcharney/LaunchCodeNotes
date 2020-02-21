@@ -4,6 +4,8 @@
 
 > :reminder_ribbon: **TODO** Include a table posing as a calendar in each section and links to each chapter covered in the class.
 
+> :reminder_ribbon: **TODO**: Provide links to better syncronize documents with each other and to keep class lessons aligned with the class schedule.
+
 [toc]
 
 ---
