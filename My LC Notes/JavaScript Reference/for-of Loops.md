@@ -287,20 +287,18 @@ Object.fromEntries(brands);
 // ❌ TypeError: Object.fromEntries is not a function
 ```
 
-Fortunately, JavaScript is flexable enough to allow us to insert our own version until a certain web browser (Edge), gets their stuff together! (Shout out do Dr. Axel Rauschmayer for inspiring this function)
+Fortunately, JavaScript is flexable enough to allow us to insert our own version until a certain web browser (Edge), gets their stuff together! (Shout out to Dr. Axel Rauschmayer for inspiring this function)
 
 ```js
 // This code should fix that.
 if(!Object.fromEntries){
 	Object.fromEntries = function fromEntries(iterable){
 		let obj = {};
-    	iterable.map( function( [key,value] ){
-      		Object.defineProperty(
-        		obj, 
-        		(typeof key === 'string' || typeof key === 'symbol') ? key : String(key),
-        		{value, writable: true, enumerable: true, configurable: true}
-      		);
-    	});
+    	iterable.map( ( [key,value] ) => Object.defineProperty(
+        	obj, 
+        	['string','symbol'].includes(typeof key) ? key : String(key),
+        	{value, writable: true, enumerable: true, configurable: true}
+    	));
     	return obj;
 	};
 }
@@ -327,6 +325,16 @@ function mapObject(func,obj){
 ```
 
 Yeah, I used an arrow function in that. (Be glad I didn't use currying!)
+
+> :information_source: Note: We could use this also to `.filter()` objects too! Possibly `.reduce()` too!
+>
+> ```js
+> function filterObject(func,obj){
+>     return Object.fromEntires(Object.entires().filter(([key,value]) => func(key,val)));
+> }
+> ```
+>
+> 
 
 ## Got a need for speed? for and while still win!
 

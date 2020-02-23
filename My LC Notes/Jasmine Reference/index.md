@@ -336,43 +336,48 @@ class SpyStrategy {
 
 > :reminder_ribbon: **TODO**: Would it be wise to put all my global methods into a class diagram?
 
+```mermaid
+classDiagram
+class Global {
+	afterAll([func:implementationCallback],[timeout:Number=jasmine.DEFAULT_TIMEOUT_INTERVAL])
+	afterEach([func:implementationCallback],[timeout:Number=jasmine.DEFAULT_TIMEOUT_INTERVAL])
+	beforeAll([func:implementationCallback],[timeout:Number=jasmine.DEFAULT_TIMEOUT_INTERVAL])
+	beforeEach([func:implementationCallback],[timeout:Number=jasmine.DEFAULT_TIMEOUT_INTERVAL])
+	describe(description:String,specDefintions:Function)
+	matchers expect(actual:Object)
+	async-matchers expectAsync(actual:Object)
+	fail([error:String|Error])
+	fdescribe(description:String,specDefintions:Function)
+	fit(description,[testFunction:implementationCallback],[timeout:Number=jasmine.DEFAULT_TIMEOUT_INTERVAL])
+	it(description,[testFunction:implementationCallback],[timeout:Number=jasmine.DEFAULT_TIMEOUT_INTERVAL])
+	pending([message:String])
+	Spy spyOn(obj:Object,methodName:String)
+	Object spyOnAllFunctions(obj:Object)
+	xdescribe(description:String,specDefintions:Function)
+	xit(description,[testFunction:implementationCallback],[timeout:Number=jasmine.DEFAULT_TIMEOUT_INTERVAL])
+}
+```
+
+
+
 #### Methods
 
-##### `afterAll`
-
-##### `afterEach`
-
-##### `beforeAll`
-
-##### `beforeEach`
-
-##### `describe`
-
-##### `expect`
-
-##### `expectAsync`
-
-##### `fail`
-
-##### `fdescribe`
-
-##### `fit`
-
-##### `it` :balloon:
-
-##### `pending`
-
-##### `spyOn` :detective:
-
-##### `spyOnAllFunctions`
-
-##### `spyOnAllProperty`
-
-##### `xdescribe`
-
-##### `xit`
-
-
+* **`afterAll`**`([func:implementationCallback],[timeout:Number=jasmine.DEFAULT_TIMEOUT_INTERVAL])`
+* **`afterEach`**`([func:implementationCallback],[timeout:Number=jasmine.DEFAULT_TIMEOUT_INTERVAL])`
+* **`beforeAll`**`([func:implementationCallback],[timeout:Number=jasmine.DEFAULT_TIMEOUT_INTERVAL])`
+* **`beforeEach`**`([func:implementationCallback],[timeout:Number=jasmine.DEFAULT_TIMEOUT_INTERVAL])`
+* **`describe`**`(description:String,specDefintions:Function)`
+* **`expect`**`(actual:Object): matchers`
+* **`expectAsync`**`(actual:Object): async-matchers`
+* **`fail`**`([error:String|Error])`
+* **`fdescribe`**`(description:String,specDefintions:Function)`
+* **`fit`**`(description,[testFunction:implementationCallback],[timeout:Number=jasmine.DEFAULT_TIMEOUT_INTERVAL])`
+* **`it`**`(description,[testFunction:implementationCallback],[timeout:Number=jasmine.DEFAULT_TIMEOUT_INTERVAL])`
+* **`pending`**`([message:String])`
+* **`spyOn`**`(obj:Object,methodName:String): Spy`
+* **`spyOnAllFunctions`**`(obj:Object) : Object`
+* **`xdescribe`**`(description:String,specDefintions:Function)`
+* **`xit`**`(description,[testFunction:implementationCallback],[timeout:Number=jasmine.DEFAULT_TIMEOUT_INTERVAL])`
 
 
 
