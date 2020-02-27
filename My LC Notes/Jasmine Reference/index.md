@@ -362,22 +362,131 @@ class Global {
 
 #### Methods
 
-* **`afterAll`**`([func:implementationCallback],[timeout:Number=jasmine.DEFAULT_TIMEOUT_INTERVAL])`
-* **`afterEach`**`([func:implementationCallback],[timeout:Number=jasmine.DEFAULT_TIMEOUT_INTERVAL])`
-* **`beforeAll`**`([func:implementationCallback],[timeout:Number=jasmine.DEFAULT_TIMEOUT_INTERVAL])`
-* **`beforeEach`**`([func:implementationCallback],[timeout:Number=jasmine.DEFAULT_TIMEOUT_INTERVAL])`
-* **`describe`**`(description:String,specDefintions:Function)`
-* **`expect`**`(actual:Object): matchers`
-* **`expectAsync`**`(actual:Object): async-matchers`
-* **`fail`**`([error:String|Error])`
-* **`fdescribe`**`(description:String,specDefintions:Function)`
-* **`fit`**`(description,[testFunction:implementationCallback],[timeout:Number=jasmine.DEFAULT_TIMEOUT_INTERVAL])`
-* **`it`**`(description,[testFunction:implementationCallback],[timeout:Number=jasmine.DEFAULT_TIMEOUT_INTERVAL])`
-* **`pending`**`([message:String])`
-* **`spyOn`**`(obj:Object,methodName:String): Spy`
-* **`spyOnAllFunctions`**`(obj:Object) : Object`
-* **`xdescribe`**`(description:String,specDefintions:Function)`
-* **`xit`**`(description,[testFunction:implementationCallback],[timeout:Number=jasmine.DEFAULT_TIMEOUT_INTERVAL])`
+##### `afterAll`
+
+**`afterAll`**`([func:implementationCallback],[timeout:Number=jasmine.DEFAULT_TIMEOUT_INTERVAL])`
+
+Run some shared teardown once after all the specs in the `describe` are run.
+
+##### `afteEach`
+
+**`afterEach`**`([func:implementationCallback],[timeout:Number=jasmine.DEFAULT_TIMEOUT_INTERVAL])`
+
+Run some shared teardown after each of the specs in the `describe` in it is called.
+
+##### `beforeAll`
+
+**`beforeAll`**`([func:implementationCallback],[timeout:Number=jasmine.DEFAULT_TIMEOUT_INTERVAL])`
+
+Run some shared setup once before all the specs in the `describe` are run.
+
+##### `beforeEach`
+
+**`beforeEach`**`([func:implementationCallback],[timeout:Number=jasmine.DEFAULT_TIMEOUT_INTERVAL])`
+
+Run some shared setup before each of the specs in the `describe` in which it is called.
+
+##### `describe`
+
+**`describe`**`(description:String,specDefintions:Function)`
+
+Create a group of specs (often called a suite).
+
+Calls to `describe` can be nested within other calls to compose your suite as a tree.
+
+###### Parameters
+
+* `description:String` - Textual description of the group.
+* `specDefintions:Function` - Function for Jasmine to invoke that will define inner suites and specs.
+
+##### `expect` 
+
+**`expect`**`(actual:Object): matchers`
+
+Create an expectation for a spec.
+
+###### Parameters
+
+* `actual:Object` - Actual computed value to test expectations against.
+
+##### `expectAsync`
+
+**`expectAsync`**`(actual:Object): async-matchers`
+
+Create an asynchronous expectation for a spec.
+
+>  :information_source: **Note**: The matchers that are provided by an asynchronous expectation all return promises which must be either returned from the spec or waited for using `await` in order for Jasmine to associate them with the correct spec.
+
+###### Parameters
+
+* `actual:Object` - Actual computed value to test expectations against.
+
+##### `fail`
+**`fail`**`([error:String|Error])`
+
+Explicitly mark a spec as failed.
+
+###### Parameters
+
+* `error:String|Error` (optional) - Reason for the failure
+
+##### `fdescribe`
+**`fdescribe`**`(description:String,specDefintions:Function)`
+
+##### `fit`
+**`fit`**`(description,[testFunction:implementationCallback],[timeout:Number=jasmine.DEFAULT_TIMEOUT_INTERVAL])`
+
+##### `it`
+**`it`**`(description:String,[testFunction:implementationCallback],[timeout:Number=jasmine.DEFAULT_TIMEOUT_INTERVAL])`
+
+Define a single spec. A spec should contain one or more `expectations` that test the state of the code. A spec whose expecations all succeed will be passing and a spec with any failures will fail.
+
+###### Parameters
+
+* `description:String` - Textual description of what the spec is checking.
+* `testFunction:ImplementationCallback` (optional) - Function tha tcontains the code of your test. If not provided, the test will be `pending`.
+* `timeout:Number=jasmine.DEFAULT_TIMEOUT_INTERVAL` (optional) - Custom timeout for an async spec.
+
+##### `pending`
+
+**`pending`**`([message:String])`
+
+Mark a spec as pending, expectation results will be ignored.
+
+###### Parameters
+
+* `message:String` (Optional) - Reason the spec is pending.
+
+##### `spyOn`
+**`spyOn`**`(obj:Object,methodName:String): Spy`
+
+##### `spyOnAllFunctions`
+
+**`spyOnAllFunctions`**`(obj:Object) : Object`
+
+##### `xdescribe`
+
+**`xdescribe`**`(description:String,specDefintions:Function)`
+
+##### `xit`
+
+**`xit`**`(description,[testFunction:implementationCallback],[timeout:Number=jasmine.DEFAULT_TIMEOUT_INTERVAL])`
+
+
+
+#### Type Definitions
+
+##### `Expectation`
+
+##### `implementationCallback`
+
+##### `JasmineDoneInfo`
+
+##### `JasmineStartedInfo`
+
+##### `SpecResult`
+
+##### `SuiteResult`
 
 
 
