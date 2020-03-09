@@ -23,8 +23,8 @@ Learn more about the LaunchCode program at https://launchcode.org/lc101
 * [My LC Notes](./My%20LC%20Notes)
 * [Source Code](./Source%20Code)
 * [Syllabus By Month](#Syllabus)
-* [Textbook](./Texbook)
-* [Textbook 2 Java Web Development](./Textbook%202%20Java%20Web%20Development)
+* [Textbook 1: *Introduction to Professional Web Development in JavaScript*](./Textbook)
+* [Textbook 2 *Java Web Development*](./Textbook%202%20Java%20Web%20Development)
 * [README.md](README.md)
 
 ---

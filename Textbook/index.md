@@ -73,3 +73,7 @@
 ## Sources
 
 [^1]: *Introduction to Professional Web Development in JavaScript*
+
+---
+
+[Back to Home](../index.md)
