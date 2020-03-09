@@ -1,5 +1,7 @@
 # Syllabus (tentative)
 
+> :skull: **Depricated** The contents of this file have been moved the the [front page](../index.md#Syllabus).
+
 > :warning: **WARNING!** The contents of this file are likely to change as the course continues.  I'd use this to help me keep track of my progress.
 
 > :reminder_ribbon: **TODO** Include a table posing as a calendar in each section and links to each chapter covered in the class.
