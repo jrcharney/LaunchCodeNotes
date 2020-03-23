@@ -6,13 +6,13 @@
 
 ## Introduction
 
-**Emmet** is a plugin for many popular text endotrs which greatly improves HTML & CSS workflow.
+**Emmet** is a plugin for many popular text editors which greatly improves HTML & CSS workflow.
 
 ## Documentation
 
 ### Cheat Sheet
 
->  :information_source: **NOTE**: :large_blue_circle: indicates whre the icon would be after the command is triggered.
+>  :information_source: **NOTE**: `|` indicates where the icon would be after the command is triggered.
 
 #### Syntax
 
@@ -40,15 +40,25 @@
 
 > :information_source: **NOTE**: See HTML Guide
 
-> :information_source: **NOTE**: Depricated tags from HTML 4 are NOT listed. 
+> :information_source: **NOTE**: Deprecated tags from HTML 4 are NOT listed. 
 
 > :information_source: **NOTE**: Inline elements will be colored <span style="color:green;">**green**</span> in their header topic.
+
+> :reminder_ribbon: **TODO**: Consider moving the contents of this section to the HTML Guide
 
 ##### HTML Template (`!` or `html:5`)
 
 ##### <span style="color:green;">Anchor Text</span> (`a`)
 
 Defines a hyperlink.
+
+| Command | Produces            | Description |
+| ------- | ------------------- | ----------- |
+| `a`     | `<a href="|">|</a>` |             |
+|         |                     |             |
+|         |                     |             |
+
+
 
 ##### <span style="color:green;">Abbreviation</span> (`abbr`)
 
@@ -561,6 +571,7 @@ Defines the document type.  `<!DOCTYPE html>` is ALWAYS the first line in an HTM
 
 > :reminder_ribbon: **TODO**: Put print-only CSS in its own section​ 
 >
+> :reminder_ribbon: **TODO**: We should move all this CSS stuff to the CSS Guide
 
 ##### Properties
 
@@ -779,113 +790,115 @@ CSS-Tricks has a pretty good [guide on how to use Flexbox](https://css-tricks.co
 | `font-variant-caps`       | Controls the usage of alternate glyphs for capital letters.  |        |
 | `font-variant-east-asian` | Controls the usage of alternate glyphs for East Asian Scripts (e.g. Chinese, Japanese, Korean) |        |
 | `font-variant-ligatures`  | Controls which ligatures and contextual forms are used in textual content of the elements it applies to. |        |
-| `font-variant-numeric`    |                                                              |        |
-| `font-variant-position`   |                                                              |        |
-| `font-weight`             |                                                              |        |
+| `font-variant-numeric`    | Controls the usage of alternate glyphs for numbers, fractions, and ordinal markers. |        |
+| `font-variant-position`   | Controls the usage of alternate glyphs for smaller size positioned as superscript or subscript regarding the baseline of the font. |        |
+| `font-weight`             | Specifies the weight of a font. Generally this is used to make text bold. |        |
 
 ###### G is for Grid
 
 **Grid** is more complex that flexboxes.
 
-| Property                | Description | Values |
-| ----------------------- | ----------- | ------ |
-| `grid`                  |             |        |
-| `grid-area`             |             |        |
-| `grid-auto-columns`     |             |        |
-| `grid-auto-flow`        |             |        |
-| `grid-auto-rows`        |             |        |
-| `grid-column`           |             |        |
-| `grid-column-end`       |             |        |
-| `grid-column-gap`       |             |        |
-| `grid-column-start`     |             |        |
-| `grid-gap`              |             |        |
-| `grid-row`              |             |        |
-| `grid-row-end`          |             |        |
-| `grid-row-gap`          |             |        |
-| `grid-row-start`        |             |        |
-| `grid-template`         |             |        |
-| `grid-template-areas`   |             |        |
-| `grid-template-columns` |             |        |
-| `grid-template-rows`    |             |        |
+| Property                | Description                                                  | Values |
+| ----------------------- | ------------------------------------------------------------ | ------ |
+| `grid`                  | A shorthand property for the `grid-template-rows`, `grid-template-columns`, `grid-template-areas`, `grid-auto-rows`, `grid-auto-columns`, and the `grid-auto-flow` properties. :reminder_ribbon: |        |
+| `grid-area`             | Either specifies a name of the grid item, or this property is a shorthand property for `grid-row-start`, `grid-column-start`, `grid-row-end`, and `grid-column-end` properties. :reminder_ribbon: |        |
+| `grid-auto-columns`     | Specifies a default column size                              |        |
+| `grid-auto-flow`        | Specifies how auto-placed items are inserted in the grid.    |        |
+| `grid-auto-rows`        | Specifies a default row size                                 |        |
+| `grid-column`           | Shorthand property for the `grid-column-start` and the `grid-column-end` properties. :reminder_ribbon: |        |
+| `grid-column-end`       | Specifies where to end the grid item.                        |        |
+| `grid-column-gap`       | Specifies the size of the gap between columns.               |        |
+| `grid-column-start`     | Specifies where to start the grid item.                      |        |
+| `grid-gap`              | A shorthand property for the `grid-row-gap` and `grid-column-gap` properties. :reminder_ribbon: |        |
+| `grid-row`              | A shorthand property for the `grid-row-start` and `grid-row-end` properties. :reminder_ribbon: |        |
+| `grid-row-end`          | Specifies where to end the grid item.                        |        |
+| `grid-row-gap`          | Specifies the size of the gap between rows.                  |        |
+| `grid-row-start`        | Specifies where to start the grid item.                      |        |
+| `grid-template`         | A shorthand property for the `grid-template-rows`, `grid-template-columns`, and `grid-areas` properties |        |
+| `grid-template-areas`   | Specifies how to display columns and rows, using named grid items |        |
+| `grid-template-columns` | Specifies the size of the columns, and how many columns in a grid layout |        |
+| `grid-template-rows`    | Specifies the size of the rows in a grid layout              |        |
 
 ###### H-I
 
 > :information_source: **NOTE**: For `justify-content` see "F is for Flex"
 
-| Property                     | Description | Values |
-| ---------------------------- | ----------- | ------ |
-| `hanging-punctuation`        |             |        |
-| `height`                     |             |        |
-| `hyphens`                    |             |        |
-| `image-rendering`? :printer: |             |        |
-| `isolation`                  |             |        |
+| Property                     | Description                                                  | Values |
+| ---------------------------- | ------------------------------------------------------------ | ------ |
+| `hanging-punctuation`        | Specifies whether a punctuation character may be placed outside the line box. |        |
+| `height`                     | Sets the height of an element                                |        |
+| `hyphens`                    | Sets how to split words to improve the layout of paragraphs  |        |
+| `image-rendering`? :printer: | Gives a hint to the browser about what aspects of an image are most important to preserve when the image is scaled |        |
+| `isolation`                  | Defines whether an element must create a new stacking content |        |
 
 ###### L
 
-| Property              |      |      |
-| --------------------- | ---- | ---- |
-| `left`                |      |      |
-| `letter-spacing`      |      |      |
-| `line-break`          |      |      |
-| `line-height`         |      |      |
-| `list-style`          |      |      |
-| `list-style-image`    |      |      |
-| `list-style-position` |      |      |
-| `list-style-type`     |      |      |
+| Property               | Description                                                  | Values |
+| ---------------------- | ------------------------------------------------------------ | ------ |
+| `left`                 | Specifies the left position of a positioned element          |        |
+| `letter-spacing`       | Increase or decrease the space between characters in a text. |        |
+| `line-break` :printer: | Specifies how/if to break lines                              |        |
+| `line-height`          | Set the line height                                          |        |
+| `list-style`           | Shorthand property for the *`line-style-\*`* properties      |        |
+| `list-style-image`     | Specifies an image as the list-item marker                   |        |
+| `list-style-position`  | Specifies the position of the list-item markers (bullet points) |        |
+| `list-style-type`      | Specifies the type of list-item marker                       |        |
 
 ###### M
 
-| Property         | Description | Values |
-| ---------------- | ----------- | ------ |
-| `margin`         |             |        |
-| `margin-bottom`  |             |        |
-| `margin-left`    |             |        |
-| `margin-right`   |             |        |
-| `margin-top`     |             |        |
-| `max-height`     |             |        |
-| `max-width`      |             |        |
-| `min-height`     |             |        |
-| `min-width`      |             |        |
-| `mix-blend-mode` |             |        |
+> :reminder_ribbon: **TODO**: Should there be a section to describe margins, borders, padding, and position properties?
+
+| Property         | Description                                                  | Values |
+| ---------------- | ------------------------------------------------------------ | ------ |
+| `margin`         | A shorthand property for all the *`margin-\*`* properties<br />Sets all the margin properties in one declaration.<br />Margins are outside the border.<br />For space inside the border, see `padding`. |        |
+| `margin-bottom`  | Sets the bottom margin of an element.                        |        |
+| `margin-left`    | Sets the left margin of an element.                          |        |
+| `margin-right`   | Sets the right margin of an element.                         |        |
+| `margin-top`     | Sets the top margin of an element.                           |        |
+| `max-height`     | Sets the maximum height of an element.                       |        |
+| `max-width`      | Sets the maximum width of an element.                        |        |
+| `min-height`     | Sets the minimum height of an element.                       |        |
+| `min-width`      | Sets the minimum width of an element.                        |        |
+| `mix-blend-mode` | Specifies how an element's content should blend with its direct parent background. :reminder_ribbon: |        |
 
 ###### O
 
 > :information_source: **NOTE**: For `order` see "F is for Flex"
 
-| Property          | Description | Values |
-| ----------------- | ----------- | ------ |
-| `object-fit`      |             |        |
-| `object-position` |             |        |
-| `opacity`         |             |        |
-| `orphans`         |             |        |
-| `outline`         |             |        |
-| `outline-color`   |             |        |
-| `outline-offset`  |             |        |
-| `outline-style`   |             |        |
-| `outline-width`   |             |        |
-| `overflow`        |             |        |
-| `overflow-wrap`   |             |        |
-| `overflow-x`      |             |        |
-| `overflow-y`      |             |        |
+| Property          | Description                                                  | Values |
+| ----------------- | ------------------------------------------------------------ | ------ |
+| `object-fit`      | Specifies how the contents of a replaced element should be fitted to the box established by its used height and width. :reminder_ribbon: |        |
+| `object-position` | Specifies the alignment of the replaced element inside its box. :reminder_ribbon: |        |
+| `opacity`         | Sets the opacity level for an element.<br />You can also set the alpha channel on color properties. |        |
+| `orphans`         | Sets the minimum number of lines that must be left at the bottom of a page when a page break occurs inside an element. :reminder_ribbon: |        |
+| `outline`         | Shorthand property for `outline-width`, `outline-style`, and `outline-color` properties. :reminder_ribbon: |        |
+| `outline-color`   | Sets the color of an outline                                 |        |
+| `outline-offset`  | Offsets an outline, and draws it beyond the border edge.     |        |
+| `outline-style`   | Sets the style of an outline                                 |        |
+| `outline-width`   | Sets the width of an outline                                 |        |
+| `overflow`        | Specifies what happens of content overflows an element's box.<br />For the overflow that applies to text, see `text-overflow`. |        |
+| `overflow-wrap`   | Specifies whether or not the browser may break lines within word in order to prevent overflow (when a string is too long to fit its containing box) |        |
+| `overflow-x`      | Specifies whether or not to clip the left/right edges of content, if it overflows the element's content area |        |
+| `overflow-y`      | Specifies whether or not to clip the top/bottom edges of the content, if it overflows the element's content area. |        |
 
 ###### P
 
 > :reminder_ribbon: **TODO**: Consider a "P is for Position" section which will contain `position`, `bottom`, `top`, `left`, and `right` and possibly `float` and `clear`.
 
-| Property                      | Description | Values |
-| ----------------------------- | ----------- | ------ |
-| `padding`                     |             |        |
-| `padding-bottom`              |             |        |
-| `padding-left`                |             |        |
-| `padding-right`               |             |        |
-| `padding-top`                 |             |        |
-| `page-break-after` :printer:  |             |        |
-| `page-break-before` :printer: |             |        |
-| `page-break-inside` :printer: |             |        |
-| `perspective`                 |             |        |
-| `perspecitive-origin`         |             |        |
-| `pointer-events`              |             |        |
-| `position`                    |             |        |
+| Property                      | Description                                                  | Values                                                       |
+| ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| `padding`                     | A shorthand property for all the *`padding-\*`* properties.<br />Sets all the padding properties in one declaration.<br />Padding is inside the border.<br />For space outside the border, see `margin`. |                                                              |
+| `padding-bottom`              | Sets the bottom padding of an element                        |                                                              |
+| `padding-left`                | Sets the left padding of an element                          |                                                              |
+| `padding-right`               | Sets the right padding of an element                         |                                                              |
+| `padding-top`                 | Sets the top padding of an element                           |                                                              |
+| `page-break-after` :printer:  | Sets the page-break behavior after an element                |                                                              |
+| `page-break-before` :printer: | Sets the page-break behavior before an element               |                                                              |
+| `page-break-inside` :printer: | Sets the page-break behavior inside an element               |                                                              |
+| `perspective`                 | Gives a 3D-positioned element some perspective               |                                                              |
+| `perspecitive-origin`         | Defined at which position the user is looking at the 3D-positioned element |                                                              |
+| `pointer-events`              | Defines whether or not an element reacts to pointer events   |                                                              |
+| `position`                    | Specifies the type of positioning method used for an element | * `static`<br />* `relative`<br />* `absolute`<br />* `fixed` |
 
 ###### Q-T
 
@@ -897,50 +910,50 @@ CSS-Tricks has a pretty good [guide on how to use Flexbox](https://css-tricks.co
 | `resize`          | Defines if (and how) and element is resizable by the user.   |        |
 | `right`           | Specifies the right position of a positioned element.        |        |
 | `scroll-behavior` | Specifies whether to smoothly animate the scroll position in a scrollable box, instead of a straight jump |        |
-| `tab-size`        |                                                              |        |
-| `tab-layout`      |                                                              |        |
-| `top`             |                                                              |        |
+| `tab-size`        | Specifies the width of a tab character                       |        |
+| `table-layout`    | Defines the algorithm used to layout table cells, rows, and columns |        |
+| `top`             | Specifies the top position of a positioned element           |        |
 
 
 
 ###### T is for Text
 
-| Property                  |      |      |
-| ------------------------- | ---- | ---- |
-| `text-align`              |      |      |
-| `text-align-last`         |      |      |
-| `text-combine-upright`    |      |      |
-| `text-decoration`         |      |      |
-| `text-decoration-color`   |      |      |
-| `text-decoration-line`    |      |      |
-| `text-decoration-style`   |      |      |
-| `text-indent`             |      |      |
-| `text-justify`            |      |      |
-| `text-orientation`        |      |      |
-| `text-overflow`           |      |      |
-| `text-shadow`             |      |      |
-| `text-transform`          |      |      |
-| `text-underline-position` |      |      |
+| Property                  | Description                                                  | Values                                                   |
+| ------------------------- | ------------------------------------------------------------ | -------------------------------------------------------- |
+| `text-align`              | Specifies the horizontal alignment to text.                  | * `left`<br />* `center`<br />* `right`<br />* `justify` |
+| `text-align-last`         | Describe how the last line of a block or a line right before a forced line break is aligned when `text-align` is `justify`. |                                                          |
+| `text-combine-upright`    | Specifies the combination of multiple characters in the space of a single character. |                                                          |
+| `text-decoration`         | Specifies the decoration added to text.<br />This is generally used for underline and strike-through. |                                                          |
+| `text-decoration-color`   | Specifies the color of the `text-decoration`.                |                                                          |
+| `text-decoration-line`    | Specifies the type of line in the `text-decoration`.         |                                                          |
+| `text-decoration-style`   | Specifies the style of the line in the `text-decoration`.    |                                                          |
+| `text-indent`             | Specifies the indentation of the first line in a text-block. |                                                          |
+| `text-justify`            | Specifies the justification method used when `text-align` is `justify`. |                                                          |
+| `text-orientation`        | Defines the orientation of the text in a line                |                                                          |
+| `text-overflow`           | Specifies what should happen when text overflows the containing element. |                                                          |
+| `text-shadow`             | Adds shadow to text.<br />See also `box-shadow`.             |                                                          |
+| `text-transform`          | Controls the capitalization of text                          |                                                          |
+| `text-underline-position` | Specifies the position of the underline which is set using the `text-decoration` property. |                                                          |
 
 ###### T is for Transform
 
-| Property           |      |      |
-| ------------------ | ---- | ---- |
-| `transform`        |      |      |
-| `transform-origin` |      |      |
-| `transform-style`  |      |      |
+| Property           | Description                                               | Values |
+| ------------------ | --------------------------------------------------------- | ------ |
+| `transform`        | Applies a 2D or 3D transformation to an element           |        |
+| `transform-origin` | Allows you to change the position on transformed elements |        |
+| `transform-style`  | Specifies how nested elements are rendered in 3D space    |        |
 
 ###### T is for Transition
 
 > :information_source: **NOTE**: For animations, see "A is for Animation".
 
-| Property                     | Description | Values |
-| ---------------------------- | ----------- | ------ |
-| `transition`                 |             |        |
-| `transition-delay`           |             |        |
-| `transition-duration`        |             |        |
-| `transition-property`        |             |        |
-| `transition-timing-function` |             |        |
+| Property                     | Description                                                  | Values |
+| ---------------------------- | ------------------------------------------------------------ | ------ |
+| `transition`                 | Shorthand property for all the *`transition-\*`* properties  |        |
+| `transition-delay`           | Specifies when the transition effect will start              |        |
+| `transition-duration`        | Specifies how many seconds or milliseconds a transition effect takes to complete. |        |
+| `transition-property`        | Specifies the name of the CSS property the transition effect is for |        |
+| `transition-timing-function` | Specifies the speed curve of the transition effect.          |        |
 
 ###### U-Z
 
@@ -961,11 +974,11 @@ CSS-Tricks has a pretty good [guide on how to use Flexbox](https://css-tricks.co
 
 ##### Aural Properties :wheelchair:
 
-Aural stylesheet properties use a combination of spee synthesis (also known as Text-to-Speech or TTS) and sound effect to allow the user to listen to information instead of reading it.  These features were added in CSS 2.
+Aural stylesheet properties use a combination of speech synthesis (also known as Text-to-Speech or TTS) and sound effect to allow the user to listen to information instead of reading it.  These features were added in CSS 2.
 
 Aural presentation can be used:
 
-* By people with visual imparements.
+* By people with visual impairments.
 * To help users learning to read.
 * To help users who have difficulty reading (e.g. dyslexia)
 * For home entertainment
@@ -1163,7 +1176,7 @@ CSS libraries (written in JavaScript) such as [Sass](https://sass-lang.com/) and
 | Function | Description                                                  |      |
 | -------- | ------------------------------------------------------------ | ---- |
 | `hsl()`  | Defines colors using the Hue-Saturation-Lightness model (HSL) |      |
-| `hsla()` | Defines colors using the Hue-Saturation-Lightness-Alpha mdel (HSLA) |      |
+| `hsla()` | Defines colors using the Hue-Saturation-Lightness-Alpha model (HSLA) |      |
 | `rgb()`  | Defines colors using the Red-Green-Blue model (RGB)          |      |
 | `rgba()` | Defines colors using the Red-Green-Blue-Alpha model (RGBA)   |      |
 
