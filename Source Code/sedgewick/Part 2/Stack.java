@@ -1,6 +1,7 @@
 /**
  * Program 4.9
  * Generic pushdown stack
+ * @see Queue.java for FIFO
  */
 class Stack {
     private Object[] s;
@@ -33,6 +34,8 @@ class Stack {
  * Linked-list implementation of pushdown stack.
  * Program 4.10
  * Adapter class for stack of integers
+ * Program 4.18
+ * Stack with index items and no duplicates
  */
 class intStack {
     /*
@@ -47,73 +50,84 @@ class intStack {
     }
     */
     
-    // 4.7
-    //private int[] s;
-    //private int n;
+    // 4.7 and 4.18
+    private int[] s;
+    private int n;
     
     // 4.8
     //private Node head;
     
     // 4.10
-    private Stack s;
+    //private Stack s;
     
+    // 4.18
+    private boolean[] t;
+
     // 4.4
     //intStack(int)
-    /*
-    // 4.7
+    
+    // 4.7 and 4.18
     intStack(int maxN){
         s = new int[maxN];
         n = 0;
+        // 4.18
+        t = new boolean[maxN];
+        for(int i = 0; i < maxN; i++){
+            t[i] = false;
+        }
     }
-    */
     /*
     // 4.8
     intStack(int maxN){
         head = null;
     }
     */
+    /*
     // 4.10
     intStack(int maxN){
         s = new Stack(maxN);
     }
+    */
     
     // 4.4
-    //int isEmpty()
-    /*
-    // 4.7
-    boolean isEmpty(){
+    //int empty()
+    // 4.7 and 4.18
+    boolean empty(){
         return (n == 0);
     }
-    */
     /*
     // 4.8
-    boolean isEmpty(){
+    boolean empty(){
         return (head == null);
     }
     */
     // 4.10
+    /*
     int isEmpty(){
         return s.isEmpty();
     }
+    */
     
     // 4.4
     //void push(int)
-    /*
-    // 4.7
+    // 4.7 and 4.18
     void push(int item){
         s[n++] = item;
+        // 4.18
+        t[item] = true;
     }
-    */
     /*
     // 4.8
     void push(int item){
         head = new Node(item, head);
     }
     */
+    /*
     // 4.10
     void push(int item){
-        s.push(new Integer(item));
+        s.push(new Integer(item));  // @deprecated
     }
+    */
     
     // 4.4
     //int pop()
@@ -132,8 +146,15 @@ class intStack {
         return v;
     }
     */
+    /*
     // 4.10
     int pop(){
         return ((Integer) s.pop()).intValue();
+    }
+    */
+    // 4.18
+    int pop(){
+        t[s[--n]] = false;
+        return s[n];
     }
 }

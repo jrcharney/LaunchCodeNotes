@@ -10,13 +10,35 @@ We will update eventually. The point here was to review this book because of cer
 
 ## Division
 
-The code is divided up by the units of each book
+The code is divided up by the Parts of each book
 
 * Part 1: Fundamentals
+  * Chapter 1. Introduction
+  * Chapter 2. Principles of Algorithm Analysis
 * Part 2: Data Structures
-* Part 3:
-* Part 4:
-* Part 5:
+  * Chapter 3. Elementary Data Structures
+  * Chapter 4. Abstract Data Types
+  * Chapter 5. Recursion and Trees
+* Part 3: Sorting
+  * Chapter 6. Elementary Sorting Methods
+  * Chapter 7. Quick Sort
+  * Chapter 8. Merging and Mergesort
+  * Chapter 9. Priority Queues and Heapsort
+  * Chapter 10. Radix Sorting
+  * Chapter 11. Special-Purpose Sorting Methods
+* Part 4: Searching
+  * Chapter 12. Symbol Tables and BSTs
+  * Chapter 13. Balanced Trees
+  * Chapter 14. Hashing
+  * Chapter 15. Radix Search
+  * Chapter 16. External Searching
+* Part 5: Graph Algorithms
+  * Chapter 17. Graph Properties and Types
+  * Chapter 18. Graph Search
+  * Chapter 19. Digraphs and DAGs
+  * Chapter 20. Minimum Spanning Trees
+  * Chapter 21. Shortest Path
+  * Chapter 22. Network Flow
 
 ## Notes
 
@@ -58,6 +80,17 @@ An **abstract data type** (ADT) is a data type (a set of values and a collection
  
 A **pushdown stack** is an ADT that comprises two basic operations: insert (**push**) a new item, and remove (**pop**) the item that was recently inserted.
 We can implement the **push** and **pop** operations for the pushdown stack ADT in constant time, using either arrays or linked lists.
+
+A **FIFO queue** is an ADT that comprises two basic operations: insert(**put**) a new item, and remove(**get**) the item that was recently inserted.
+We can implement the **get** and **put** operations for the FIFO queue ADT in constant time, using either arrays or linked lists.
+
+A **first-class data type** is one in which we can use in our programs in the same was as we use primitive data types.
+
+A recursive method that divides a problem of size $N$ into two independent (nonempty) parts that it solves recursively calls itself less than $N$ times.
+
+The recursive divide-and-conquer algorithm for the towers of Hanoi problem produces a solution that has $2^N - 1$ moves.
+
+Dynamic programming reduces the running time of a recursive method to be at most the time required to evaluate the function for all arguments less than or equal to the given argument, treating the cost of a recursive invocation as constant.
 
 ## Code Snippets
 
