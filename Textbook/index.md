@@ -41,15 +41,15 @@
 
 > :information_source: **NOTE** Assigment solutions are NOT posted here. In fact, with the exception of Assigment #4, most of their content won't he here either.
 
-* [Assignment #1: Candidate Testing](B.%20Assigments/A1.Candidate%20Testing.md)
-* [Assignment #2: Scrabble Scorer](B.%20Assigments/A2.Scrabble%20Scorer.md)
-* [Assignment #3: Mars Rover](B.%20Assigments/A3.Mars%20Rover.md)
+* [Assignment #1: Candidate Testing](B.%20Assignments/A1.Candidate%20Testing.md)
+* [Assignment #2: Scrabble Scorer](B.%20Assignments/A2.Scrabble%20Scorer.md)
+* [Assignment #3: Mars Rover](B.%20Assignments/A3.Mars%20Rover.md)
 
   > :robot: "My battery is low and it's getting dark."
 
-* [**Assignment #4: HTML Me Something**](B.%20Assigments/A4.HTML%20Me%20Something.md)
-* [Assignment #5: Launch Checklist Form](B.%20Assigments/A5.Launch%20Checklist%20Form.md)
-* [Assignment #6: Orbit Report](B.%20Assigments/A6.Orbit%20Report.md)
+* [**Assignment #4: HTML Me Something**](B.%20Assignments/A4.HTML%20Me%20Something.md)
+* [Assignment #5: Launch Checklist Form](B.%20Assignments/A5.Launch%20Checklist%20Form.md)
+* [Assignment #6: Orbit Report](B.%20Assignments/A6.Orbit%20Report.md)
 
 ---
 
