@@ -1,6 +1,6 @@
 # Guide TODO List
 
-- [ ] **Markdown Guide** (currently underway) - Explains how to write Markdown with Extended Markdown features in Typoria
+- [ ] **Markdown Guide** (currently underway) - Explains how to write Markdown with Extended Markdown features in Typora
 - [ ] **LaTeX Guide** - A guide for writing math and chemical formulas in Markdown
 - [ ] **Mermaid Guide** - A guide for composing diagrams using mermaid.js.
 - [ ] **Graphviz Guide** - If the Mermaid Syntax deviates widely from Graphviz syntax, consider making this guide
@@ -13,7 +13,7 @@
 - [ ] **Python Guide** - A guide listing Python syntax that is important. (I should recommend using this to rewrite bash scripts into Python Scripts)
 - [ ] **Linux Guide** - A guide listing Bash, Sed, and Awk syntax as well as text processing. (You should really do this in Python!)
 - [ ] **Git Guide** - A guide to get gud at git.
-- [ ] **TypeScript Guide** - A gude for TypeScript
+- [ ] **TypeScript Guide** - A guide for TypeScript
 - [ ] **Jasmine Guide** - A Guide for Jasmine.js.
 - [ ] **Node Guide** - A Guide for Node.js.
 - [ ] **Express Guide** - A Guide for Express.js.
@@ -25,3 +25,5 @@
 - [ ] **YAML Guide** - A Guide for YAML.
 - [ ] **Ruby Guide** - A Guide for Ruby.
 - [ ] **C++ Guide** - A Guide for C++ (C++20?)
+- [ ] **Chocolatey Guide** - A guide for the Software Package Manager for Windows.
+- [ ] **Visual Studio Code Guide** - A Guide for using VSCode, especially for Windows, though it can be used on other operating systems.
