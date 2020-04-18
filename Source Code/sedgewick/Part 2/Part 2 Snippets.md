@@ -1,6 +1,14 @@
-# Part 2 Code Snippets
+# Part 2 Code Snippets: Data Structures
 
-## Program 3.9
+[toc]
+
+---
+
+> TODO: Go back and add and properties and definitions and program descriptions.
+
+## Chapter 3. Elementary Data Structures
+
+### Program 3.9
 
 ```java
 /**
@@ -19,7 +27,7 @@ static Node reverse(Node x){
 }
 ```
 
-## Program 3.14
+### Program 3.14
 
 ```java
 /**
@@ -44,7 +52,7 @@ static int countMatches(String p, String s){
 }
 ```
 
-## Program 3.15
+### Program 3.15
 
 ```java
 /**
@@ -63,7 +71,9 @@ static String squeeze(String s){
 }
 ```
 
-## Program 4.2
+## Chapter 4. Abstract Data Types
+
+### Program 4.2
 ```java
 /**
  * Program 4.2
@@ -95,7 +105,7 @@ class PointPolar {
 }
 ```
 
-## Program 4.3
+### Program 4.3
 
 ```java
 /**
@@ -115,7 +125,9 @@ class PointADT {
 }
 ```
 
-## Program 5.1
+## Chapter 5. Recursion and Trees
+
+### Program 5.1
 
 ```java
 /**
@@ -136,7 +148,7 @@ static int factorial(int n){
 }
 ```
 
-## Program 5.2
+### Program 5.2
 
 ```java
 /**
@@ -153,7 +165,7 @@ static int puzzle(int n){
 }
 ```
 
-## Program 5.3
+### Program 5.3
 
 ```java
 /**
@@ -167,7 +179,7 @@ static int gcd(int m, int n){
 }
 ```
 
-## Program 5.4
+### Program 5.4
 
 ```java
 /*
@@ -195,7 +207,7 @@ static int eval(){
 }
 ```
 
-## Program 5.5
+### Program 5.5
 
 ```java
 /**
@@ -224,7 +236,7 @@ Node remove(Node h, Item v){
 }
 ```
 
-## Program 5.6
+### Program 5.6
 
 ```java
 /**
@@ -240,7 +252,7 @@ static double max(double a[], int l, int r){
 }
 ```
 
-## Program 5.7
+### Program 5.7
 
 ```java
 /**
@@ -255,7 +267,7 @@ static void hanoi(int n, int d){
 }
 ```
 
-## Program 5.8
+### Program 5.8
 
 ```java
 /**
@@ -272,7 +284,7 @@ static void rule(int l, int r, int h){
 }
 ```
 
-## Program 5.9
+### Program 5.9
 
 ```java
 /**
@@ -288,7 +300,7 @@ static void rule(int l, int r, int h){
 }
 ```
 
-## Program 5.10
+### Program 5.10
 
 ```java
 /**
@@ -302,7 +314,7 @@ static int fibonacci(int i){
 }
 ```
 
-## Program 5.11
+### Program 5.11
 
 ```java
 /**
@@ -320,7 +332,7 @@ static int fibonacci(int i){
 }
 ```
 
-## Program 5.12
+### Program 5.12
 
 > Note: This one was poorly written
 
@@ -350,7 +362,7 @@ static int knap(int cap){
 }
 ```
 
-## Program 5.13
+### Program 5.13
 
 > Note: This one was also poorly written
 
@@ -436,7 +448,7 @@ void traverse(){
 }
 ```
 
-## Program 5.15 Preorder traverse (nonrecursive)
+### Program 5.15 Preorder traverse (nonrecursive)
 
 The nonrecursive stack-based method is functionally equivalent to its recursive counterpart, Program 5.14.
 
@@ -460,7 +472,7 @@ void traverseS(){
 }
 ```
 
-## Program 5.6 Level-order traversal
+### Program 5.6 Level-order traversal
 
 Switiching the underlying data structure in preorder traerseal (Program 5.15) from a stack to a queue transforms the traversal into a level-order one.
 
@@ -484,7 +496,7 @@ void traverseQ(){
 }
 ```
 
-## Program 5.17 Computation of tree parameters
+### Program 5.17 Computation of tree parameters
 
 We can use simple recursive methods such as these to learn basic structural properties of trees.
 
@@ -510,7 +522,7 @@ int height(){
 }
 ```
 
-## Program 5.18 Quick tree-print method
+### Program 5.18 Quick tree-print method
 
 This recursive program keeps track f the tree height and uses that information for indentation in printing out a representation of the tree that we can use to debug tree-processing programs. It assumes that items in nodes are of type `Item`.
 
@@ -538,7 +550,7 @@ void show(){
 }
 ```
 
-## Program 5.19 Construction of a tournament
+### Program 5.19 Construction of a tournament
 
 This recursive method divises an array `a[l],...,a[r]` into two parts `a[l],...,a[m]` and `a[m+1],...,a[r]`, builds tournaments for two parts (recursively), and makes a tournament for the who array by setting links in a new node to the recursively built tournaments and setting its value to the larger of the values in the roots of the two recursively built tournaments.
 
@@ -569,7 +581,7 @@ static Node max(double a[], int l, int r){
 }
 ```
 
-## Program 5.20 Construction of a parse tree
+### Program 5.20. Construction of a parse tree
 
 To build a parse tree instead of just evaluating a prefix expression, we could use this recursive method instead of the `eval` method in Program 5.4. For simplicity, this code assumes that operands are single characters and the `Node` class is defined like the one in Program 5.19, but with a `char` field for its data. Each call of the recursive method creates a new node with the next character from the input as the token. If the token is an operand, we return the ndw node; if it is an operator, we set the left and right pointers to the tree built (recursively) for the two arguments.
 
@@ -589,7 +601,7 @@ static Node parse(){
 }
 ```
 
-## Program 5.21. Depth-first search
+### Program 5.21. Depth-first search
 
 To visit all the notes connected to nod $k$ in a graph, we mark it as *visited*, then (recursively) visit all the unvisited nodes on $k$'s adjaceny list.
 
@@ -611,7 +623,7 @@ private void dfs(int k){
 
 > **Property 5.10**: Depth-first search requires time proportional to $V+E$ in a graph with $V$ vertices and $E$ edges, using adjacency lists representation.
 
-## Program 5.22. Breath-first search
+### Program 5.22. Breath-first search
 
 To visit the nodes connected to node $k$ in a graph, we put $k$ onto a FIFO queue, then enter into a loop where we get the next node from the queue, and, if it has not been visited, visit it and push all the unvisited notes on its adjacency list, continuing until the queue is empty.
 

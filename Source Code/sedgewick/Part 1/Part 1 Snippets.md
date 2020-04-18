@@ -1,18 +1,20 @@
-# Part 1 Code Snippets
+# Part 1 Code Snippets: Fundamentals
 
-## Program 2.1
+[toc]
+---
+
+## Chapter 2. Principles of Algorithm Analysis
+
+> **Property 2.1**: Sequential Search examines $N$ numbers for each unsuccessful search and about $N/2$ numbers for each successful search on the average.
+
+> **Property 2.2**: Sequential Search in an ordered table examines $N$ numbers for each search in the worst case and about $N/2$ numbers for each search on the average.
+
+### Program 2.1. Sequential Search
 
 ```java
 /**
  * Program 2.1
  * Sequential Search
- * Property 2.1
- * Sequential Search examines $N$ numbers for each unsuccessful search 
- * and about $N/2$ numbers for each successful search on the average.
- * Property 2.2
- * Sequential Search in an ordered table examines $N$ numbers
- * for each search in the worst case and about $N/2$ numbers for each
- * search on the average.
  */
 static int searchSeq(int a[], int v, int l, int r){
     for(int i = l; i <= r; i++){
@@ -23,15 +25,15 @@ static int searchSeq(int a[], int v, int l, int r){
 }
 ```
 
-## Program 2.2
+>  * **Property 2.3.** Binary search never examines more than $\lfloor \lg N \rfloor + 1$ numbers.
+
+### Program 2.2. Binary Search
 
 ```java
 /**
  * Program 2.2
  * Binary Search 
  * Note: binary search is more efficient than sequential search
- * Property 2.3.
- * Binary search never examines more than $\lfloor \lg N \rfloor + 1$ numbers.
  */
 static int searchBin(int a[], int v, int l, int r){
     while(r >= l){
