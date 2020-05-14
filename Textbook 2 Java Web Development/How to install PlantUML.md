@@ -352,9 +352,26 @@ Try out the code we used for QuizRunner in the IntelliJ instructions.
 >
 > Hopefully the next release will be based on wherever the beta is located or from GitHub.
 >
-> The only downside with the VSCode version is that you can't save the image or copy the image to the clip board. On the other hand, the VSCode version should allow for `plantuml` to be used as part of a Markdown code block.
+> ~~The only downside with the VSCode version is that you can't save the image or copy the image to the clip board.~~ ( :nerd_face: Acutally...see the Export section ) On the other hand, the VSCode version should allow for `plantuml` to be used as part of a Markdown code block.
 
 And that it! You now have a powerful tool at your disposal to create UML diagrams to display a visual blueprint of your code!
+
+##### Export
+
+PlantUML supports export to the following formats: `*.png, *.svg, *eps, *.pdf, *vdx, *.xmi, *scmi, *html, *.txt, *.utxt, *.latex`
+
+To export, `CTRL+SHIFT+P` then select for `PlantUML:Export`. Youll be asked what format to save the file as. I recommend `.png`
+
+However, where the file is exported depends on where the file is. The export file will be output in the `out/{projectname}` directory of your project, and if it doesn't exist, it will be created for you.
+
+Optionally, you can add these in your `settings.json` file to put your diagrams in directory for documentation. (This is still a bit buggly.)
+
+```json
+"plantuml.diagramsRoot": "docs/diagrams/src",
+"plantuml.exportOutDir": "docs/diagrams/out"
+```
+
+This way you know where to create your `.puml` files (`docs/diagrams/src`) and where it will go when you export it (`docs/diagrams/out`).
 
 ### Mac
 
